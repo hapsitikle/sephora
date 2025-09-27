@@ -1,1 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>$750 Sephora Beauty Voucher</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: #fff;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+    }
+    .container { max-width: 700px; margin: 0 auto; padding: 32px 20px; text-align: center; }
 
+    /* Header Badge */
+    .header-badge {
+      background: rgba(138, 97, 255, 0.2);
+      border: 1px solid #8a61ff;
+      color: #b8a9ff;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 24px;
+    }
+
+    /* Logo */
+    .sephora-logo { margin: 0 auto 20px; }
+    .sephora-logo img {
+      display: block;
+      max-width: 160px;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+
+    /* Header */
+    .header h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 16px;
+      line-height: 1.1;
+    }
+    .highlight { color: #4ecdc4; }
+    .header p {
+      font-size: 1.1rem;
+      color: #a0a0a0;
+      margin-bottom: 40px;
+    }
+
+    /* Steps */
+    .steps { margin: 40px 0; }
+    .step {
+      display: flex;
+      align-items: center;
+      padding: 16px 0;
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+      gap: 16px;
+    }
+    .step + .step { border-top: 1px solid rgba(255,255,255,0.08); }
+    .step-number {
+      background: #8a61ff;
+      color: #fff;
+      width: 40px; height: 40px; border-radius: 50%;
+      display: grid; place-items: center;
+      font-weight: 800; flex-shrink: 0; font-size: 16px;
+    }
+    .step-content h3 { font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .step-content p { color: #a0a0a0; font-size: 0.98rem; }
+
+    /* CTA */
+    .cta-message {
+      font-size: 1.2rem;
+      color: #4ecdc4;
+      font-weight: 700;
+      margin: 28px 0 18px;
+    }
+    .cta-button {
+      background: linear-gradient(135deg, #8a61ff 0%, #6c5ce7 100%);
+      color: #fff;
+      padding: 16px 34px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 12px;
+      display: inline-block;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+      border: 0;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(138, 97, 255, 0.28);
+    }
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 34px rgba(138, 97, 255, 0.38);
+      background: linear-gradient(135deg, #9c88ff 0%, #7c6ce8 100%);
+    }
+    .cta-button::after { content: " →"; margin-left: 6px; }
+    .cta-subtext { margin-top: 12px; color: #a0a0a0; font-size: 0.95rem; }
+
+    /* Mobile Proof */
+    .mobile-proof { margin: 44px 0 8px; }
+    .mobile-proof h3 {
+      color: #fff; font-size: 1.05rem; font-weight: 700; margin-bottom: 14px;
+    }
+    .mobile-proof img {
+      display: block;
+      width: 200px;
+      max-width: 80%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header h1 { font-size: 2.25rem; }
+      .step { padding: 14px 0; }
+      .step-number { width: 36px; height: 36px; font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-badge">Sephora Rewards — Limited Availability</div>
+
+    <!-- Logo (now wrapped so CSS applies) -->
+    <div class="sephora-logo">
+      <img src="sephora.jpg" alt="Sephora logo" />
+    </div>
+
+    <div class="header">
+      <h1>$750 <span class="highlight">Sephora</span> Giftcards</h1>
+      <p>Your Sephora haul is just a few deals away.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>Click the button below to start</h3>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>Complete 3-5 deals</h3>
+          <p><span class="highlight">Do 1 extra deal to unlock up to $100 extra credit.</span></p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>Claim your Sephora voucher and start shopping</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accessible CTA -->
+    <a
+      href="https://offerlnks.com/aff_c?offer_id=1185&aff_id=134431"
+      class="cta-button"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Claim your Sephora reward"
+    >
+      Claim Your Reward
+    </a>
+
+    <div class="cta-subtext">Finish the steps to receive your Sephora credit.</div>
+
+  </div>
+</body>
+</html>
